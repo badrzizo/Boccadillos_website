@@ -1,4 +1,15 @@
 {
+  "name": "bocadillos-restaurant",
+  "version": "1.0.0",
+  "description": "Bocadillos Restaurant Website",
+  "scripts": {
+    "dev": "npx live-server",
+    "start": "npx live-server",
+    "build": "echo 'No build needed for static site'"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
   "devDependencies": {
     "firebase-tools": "^14.4.0"
   }
